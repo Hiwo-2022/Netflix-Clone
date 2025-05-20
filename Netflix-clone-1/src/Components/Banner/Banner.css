@@ -1,6 +1,6 @@
 .banner {
   margin-top: 0vh;
-  height: 80vh;
+  height: 100vh;
   margin-bottom: -80px;
   color: white;
   object-fit: contain;
@@ -37,22 +37,24 @@
 .banner__title {
   font-size: 3.5rem;
   font-weight: 900;
-  padding-bottom: 0.3rem;
+  padding-bottom: 3.3rem;
 }
 
 .banner__description {
   width: 45rem;
   line-height: 1.3;
-  padding: 1rem 0;
+  padding: 2rem 0;
   font-size: 1.2rem;
   max-width: 360px;
   height: 80px;
+  margin-bottom: 100px;
 }
 
 .banner__buttons {
   display: flex;
   gap: 20px;
-  margin-top: 10px;
+  margin-top: -40px;
+  margin-bottom: -10px;
 }
 
 .banner__button {
@@ -91,4 +93,5 @@
     #111
   );
   z-index: 1;
+  
 }

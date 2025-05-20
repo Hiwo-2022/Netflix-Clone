@@ -1,9 +1,10 @@
 .footer_container {
-  background-color: #141414; /* Netflix dark background */
-  color: #757575; /* Netflix gray text */
-  padding: 40px 20px;
+  background-color: #141414; 
+  color: #757575; 
+  padding: 0px auto;
   font-size: 18px;
   text-align: center;
+  margin-bottom: 100px;
   
 }
 
@@ -21,7 +22,7 @@
 }
 
 .footer_socials i:hover {
-  color: #ffffff; /* Highlight on hover */
+  color: #ffffff; 
 }
 
 .footer_links_group {

@@ -47,12 +47,12 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   };
   return (
     <div className="row">
-      <h1>{title}</h1>
-      <div className="row_posters">
-        {movies?.map((movie, index) => (
+      <h2>{title}</h2>
+      <div className="row__posters">
+        {movies?.map((movie) => (
           <img
             onClick={() => handleClick(movie)}
-            key={index}
+            key={movie.id}
             src={`${base_url}${
               isLargeRow ? movie.poster_path : movie.backdrop_path
             }`}
